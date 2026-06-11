@@ -27,17 +27,6 @@ body{font-family:'Inter',sans-serif;background:#EDECE9;color:var(--ink);font-siz
 .t-lbl{font-size:10px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:1.5px;white-space:nowrap;background:rgba(0,0,0,.2);padding:2px 8px;border-radius:2px}
 .t-txt{font-size:11px;color:rgba(255,255,255,.9);white-space:nowrap}
 
-/* FILTER BAR */
-.fbar{background:#fff;border-bottom:1px solid var(--rule);padding:10px 24px;display:flex;align-items:center;flex-wrap:wrap;gap:8px}
-.fl{font-size:10px;font-weight:700;color:var(--ink-f);text-transform:uppercase;letter-spacing:1px}
-select,input[type=date],input[type=text]{font-family:'Inter',sans-serif;font-size:12px;padding:5px 9px;border:1px solid var(--rule);border-radius:4px;background:var(--surf);color:var(--ink);outline:none;height:30px}
-select:focus,input:focus{border-color:var(--red)}
-.btn{font-family:'Inter',sans-serif;font-size:11px;font-weight:600;padding:0 12px;height:30px;border:none;border-radius:4px;background:var(--red);color:#fff;cursor:pointer}
-.btn:hover{background:var(--red-dk)}
-.btn-out{background:#fff;border:1px solid var(--rule);color:var(--ink-m);cursor:pointer;font-family:'Inter',sans-serif;font-size:11px;padding:0 10px;height:30px;border-radius:4px}
-.btn-out:hover{border-color:var(--ink-m)}
-.fcnt{margin-left:auto;font-size:11px;color:var(--ink-f)}
-.fcnt strong{color:var(--ink)}
 
 /* LAYOUT */
 .wrap{max-width:1480px;margin:0 auto;padding:18px 24px 40px}
@@ -66,25 +55,14 @@ select:focus,input:focus{border-color:var(--red)}
 .cc-d{font-size:10px;color:var(--ink-f);margin-bottom:12px}
 
 /* TABLE */
-.tc{background:#fff;border:1px solid var(--rule);border-radius:6px;overflow:hidden;margin-bottom:18px}
-.tc-hd{padding:12px 16px;border-bottom:1px solid var(--rule);display:flex;align-items:center;justify-content:space-between}
-.tc-t{font-family:'Merriweather',serif;font-size:13px;font-weight:700;color:var(--ink)}
 .tw{overflow-x:auto}
 table{width:100%;border-collapse:collapse;font-size:11px}
-thead th{background:var(--surf2);text-align:left;padding:8px 10px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--ink-m);border-bottom:1px solid var(--rule);white-space:nowrap;cursor:pointer;user-select:none}
-thead th:hover{background:#E8E8E8}
+thead th{background:var(--surf2);text-align:left;padding:8px 10px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--ink-m);border-bottom:1px solid var(--rule);white-space:nowrap}
 tbody tr{border-bottom:1px solid #F5F5F5;transition:background .1s}
 tbody tr:hover{background:#FFF7F7}
 tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
 .m{color:var(--ink-f)}
 .pill{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;white-space:nowrap}
-
-/* PAGINATION */
-.pag{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-top:1px solid var(--rule);font-size:11px;color:var(--ink-f)}
-.pb{display:flex;gap:3px}
-.pbtn{width:26px;height:26px;border:1px solid var(--rule);border-radius:4px;background:#fff;font-size:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--ink-m)}
-.pbtn:hover{border-color:var(--red);color:var(--red)}
-.pbtn.ac{background:var(--red);color:#fff;border-color:var(--red)}
 
 /* TABS */
 .tabs{display:flex;border-bottom:2px solid var(--rule);margin-bottom:16px}
@@ -93,32 +71,16 @@ tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
 .tp{display:none}
 .tp.ac{display:block}
 
-/* IMPACT BADGES */
-.imp-ci{background:#FEE2E2;color:#991B1B}
-.imp-ca{background:#FEE2E2;color:#7F1D1D}
-.imp-gd{background:#DCFCE7;color:#14532D}
-.imp-gr{background:#F0F0F0;color:#374151}
-.imp-st{background:#DBEAFE;color:#1E3A8A}
-.imp-sl{background:#EDE9FE;color:#3B0764}
-.imp-ev{background:#FEF9C3;color:#713F12}
-.imp-nb{background:#E0F2FE;color:#0C4A6E}
-
-/* NOTA TITLE in table */
-.nota-t{max-width:340px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:500;color:var(--ink)}
-
 /* SPARKLINE legend */
 .leg{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:8px;font-size:11px;color:var(--ink-m)}
 .leg span{display:flex;align-items:center;gap:4px}
 .lsq{width:10px;height:10px;border-radius:2px;flex-shrink:0}
 
+
 /* FOOTER */
 .footer{text-align:center;font-size:10px;color:var(--ink-f);padding:16px;border-top:1px solid var(--rule);background:#fff}
 .footer strong{color:var(--red)}
 
-/* SEARCH */
-.sw{position:relative}
-.sw input{padding-left:26px;width:200px}
-.si{position:absolute;left:8px;top:50%;transform:translateY(-50%);font-size:12px;color:var(--ink-f);pointer-events:none}
 </style>
 </head>
 <body>
@@ -140,19 +102,6 @@ tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
   <span class="t-txt">🥇 "Abaten a El Mencho" — 1.37M PVs &nbsp;·&nbsp; 🥈 CURP Biométrica — 945K PVs &nbsp;·&nbsp; 🥉 CURP módulos — 770K PVs &nbsp;·&nbsp; Autor #1: Yareli Rafael — 21.3M PVs &nbsp;·&nbsp; Mejor día: Jueves — 50.6M PVs</span>
 </div>
 
-<!-- FILTER BAR -->
-<div class="fbar">
-  <span class="fl">Filtrar tabla</span>
-  <select id="f-u" onchange="applyF()"><option value="">Todas las unidades</option><option value="Afición">Afición</option><option value="Fidelización">Fidelización</option><option value="Hard">Hard</option><option value="Hidalgo">Hidalgo</option><option value="Jalisco">Jalisco</option><option value="Laguna">Laguna</option><option value="León">León</option><option value="M2">M2</option><option value="Monterrey">Monterrey</option><option value="Otro/Nacional/Operaciones">Otro/Nacional/Operaciones</option><option value="Pueblo">Pueblo</option><option value="Estado de México">Estado de México</option><option value="Tamaulipas">Tamaulipas</option><option value="Unidad de Crecimiento">Unidad de Crecimiento</option><option value="Nacional">Nacional</option><option value="Puebla">Puebla</option></select>
-  <select id="f-p" onchange="applyF()"><option value="">Todas las plazas</option><option value="CDMX">CDMX</option><option value="Estado de México">Estado de México</option><option value="Hidalgo">Hidalgo</option><option value="Jalisco">Jalisco</option><option value="Laguna">Laguna</option><option value="León">León</option><option value="Monterrey">Monterrey</option><option value="Nacional">Nacional</option><option value="Operaciones">Operaciones</option><option value="Puebla">Puebla</option><option value="Tamaulipas">Tamaulipas</option></select>
-  <select id="f-i" onchange="applyF()"><option value="">Todos los impactos</option><option value="CRÍTICO - Alto Impacto">CRÍTICO - Alto Impacto</option><option value="CRÍTICO - Bajo Impacto">CRÍTICO - Bajo Impacto</option><option value="ENTRETENIMIENTO - Nicho">ENTRETENIMIENTO - Nicho</option><option value="ENTRETENIMIENTO - Viral">ENTRETENIMIENTO - Viral</option><option value="GENERAL - Destacable">GENERAL - Destacable</option><option value="GENERAL - Regularidad">GENERAL - Regularidad</option><option value="NEGOCIOS - B2B Focus">NEGOCIOS - B2B Focus</option><option value="SOCIAL - Comunidad Local">SOCIAL - Comunidad Local</option><option value="SOCIAL - Tendencia">SOCIAL - Tendencia</option></select>
-  <input type="date" id="f-d" value="2025-10-01" onchange="applyF()">
-  <input type="date" id="f-h" value="2026-06-07" onchange="applyF()">
-  <div class="sw"><span class="si">🔍</span><input type="text" id="f-q" placeholder="Buscar nota…" oninput="applyF()"></div>
-  <button class="btn-out" onclick="resetF()">✕ Limpiar</button>
-  <div class="fcnt" id="fcnt"></div>
-</div>
-
 <div class="wrap">
 
   <!-- KPIs -->
@@ -171,7 +120,6 @@ tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
   <!-- TABS -->
   <div class="tabs">
     <div class="tab ac" onclick="st('g')">📊 Gráficas</div>
-    <div class="tab" onclick="st('t')">📋 Tabla de notas</div>
     <div class="tab" onclick="st('r')">🏆 Rankings</div>
   </div>
 
@@ -236,48 +184,18 @@ tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
 
   </div>
 
-  <!-- TAB TABLA -->
-  <div class="tp" id="tab-t">
-    <div class="tc">
-      <div class="tc-hd">
-        <div class="tc-t">Notas editoriales</div>
-        <button class="btn" style="font-size:10px;padding:0 10px" onclick="exportCSV()">⬇ CSV filtrado</button>
-      </div>
-      <div class="tw">
-        <table>
-          <thead>
-            <tr>
-              <th onclick="sb(0)">Fecha</th>
-              <th onclick="sb(1)">Título</th>
-              <th onclick="sb(2)">Autor</th>
-              <th onclick="sb(3)">Unidad</th>
-              <th onclick="sb(4)">Sección</th>
-              <th onclick="sb(5)" title="Page Views">PVs ↕</th>
-              <th onclick="sb(6)">Scroll%</th>
-              <th onclick="sb(7)">RFV</th>
-              <th>Impacto</th>
-            </tr>
-          </thead>
-          <tbody id="tbody"></tbody>
-        </table>
-      </div>
-      <div class="pag">
-        <span id="p-info">—</span>
-        <div class="pb" id="p-btns"></div>
-      </div>
-    </div>
-  </div>
-
   <!-- TAB RANKINGS -->
   <div class="tp" id="tab-r">
     <div class="crow">
       <div class="cc">
         <div class="cc-t">🏆 Top 20 notas más leídas</div>
-        <div class="cc-d">Por page views totales</div>
-        <table style="font-size:11px;margin-top:4px">
-          <thead><tr><th style="width:24px">#</th><th>Título</th><th>Sección</th><th>PVs</th><th>Fecha</th></tr></thead>
-          <tbody id="top-notas"></tbody>
-        </table>
+        <div class="cc-d">Por page views totales · Oct 2025 – Jun 2026</div>
+        <div class="tw">
+          <table style="font-size:11px;margin-top:4px">
+            <thead><tr><th style="width:24px">#</th><th>Título</th><th>Sección</th><th>Unidad</th><th>PVs</th><th>Fecha</th></tr></thead>
+            <tbody id="top-notas"></tbody>
+          </table>
+        </div>
       </div>
       <div class="cc">
         <div class="cc-t">✍️ Top 15 autores por PVs</div>
@@ -299,16 +217,7 @@ tbody td{padding:7px 10px;color:var(--ink);vertical-align:middle}
 // ═══════════════════════════════════════════════════════════
 const AGG = {"kpis": {"total_pvs": 248271697, "total_notas": 98624, "total_autores": 1748, "total_secciones": 76, "scroll_prom": 35.2, "rfv_prom": 22.49, "fecha_min": "2025-10-01", "fecha_max": "2026-06-07"}, "pvs_mes": {"2025-10": 30697972, "2025-11": 31917764, "2025-12": 25642345, "2026-01": 30991537, "2026-02": 29623337, "2026-03": 33455149, "2026-04": 32109348, "2026-05": 27839968, "2026-06": 5994277}, "registros_mes": {"2025-10": 10533, "2025-11": 12355, "2025-12": 11114, "2026-01": 11880, "2026-02": 9697, "2026-03": 13227, "2026-04": 13304, "2026-05": 13161, "2026-06": 3353}, "pvs_unidad": {"Unidad de Crecimiento": 67969985, "Hard": 56489491, "Otro/Nacional/Operaciones": 42208501, "Afición": 26628167, "M2": 11584091, "Estado de México": 9056438, "Monterrey": 6973700, "León": 4732322, "Tamaulipas": 4372470, "Jalisco": 4109614, "Fidelización": 4105246, "Laguna": 3943646}, "pvs_sec": {"Comunidad": 57544287, "Policía": 32079875, "Estados": 18527295, "Política": 14867845, "Negocios": 13532613, "Operaciones": 12693180, "Famosos": 12021380, "Internacional": 10918961, "Liga Mx": 10906870, "0": 8690542, "Futbol Internacional": 5212066, "El Clima": 4604351, "Ciencia y Salud": 4367765, "Mundial": 4299990, "Consejos": 4174930}, "area_impacto": {"CRÍTICO - Alto Impacto": 2576, "CRÍTICO - Bajo Impacto": 27298, "ENTRETENIMIENTO - Nicho": 2175, "ENTRETENIMIENTO - Viral": 236, "GENERAL - Destacable": 14847, "GENERAL - Regularidad": 44938, "NEGOCIOS - B2B Focus": 33, "SOCIAL - Comunidad Local": 5395, "SOCIAL - Tendencia": 1126}, "plaza_pvs": {"Nacional": 176116675, "Operaciones": 12693180, "0": 8690542, "Monterrey": 8328907, "Estado de México": 7630032, "CDMX": 6702023, "Tamaulipas": 5956170, "León": 5196540, "Laguna": 5062002, "Jalisco": 4842584, "Puebla": 3358328, "Hidalgo": 3052910}, "top_autores": {"Yareli Rafael": 21343419, "Lorely Osorno": 14605794, "Javier Chávez M": 6605399, "Redacción": 6529392, "Zeltzin Zamora": 6292542, "Equipo MILENIO": 5879575, "Adriana Paez": 4048383, "Marco Antonio Guadarrama": 3763266, "Mayte Baena": 3685461, "Agencia EFE": 3273695, "Miriam Ramírez": 3204165, "Karla Vázquez": 3191759, "Gaspar Vela": 2975675, "Carlos Ibarra": 2825586, "Rubi Martinez": 2673580}, "top_notas": [{"titulo": "Abaten a Nemesio Oseguera Cervantes, ‘El Mencho’, líder de CJNG, en operativo federal", "Pv´s": 1369364, "seccion": "Policía", "Unidad": "Otro/Nacional/Operaciones", "Fecha": "2026-02-22"}, {"titulo": "¿Cómo sacar la CURP Biométrica en 2026? Estos son todos los MÓDULOS en donde podrás hacer el trámite", "Pv´s": 945347, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-01-08"}, {"titulo": "Confirmado: Estos son TODOS los requisitos que te pedirán al tramitar tu CURP Biométrica en 2026: documentos y datos personales | LISTA", "Pv´s": 770766, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-01-15"}, {"titulo": "El Mencho', líder del CJNG, murió: últimas noticias de bloqueos en México y reacciones | EN VIVO", "Pv´s": 738819, "seccion": "Policía", "Unidad": "Otro/Nacional/Operaciones", "Fecha": "2026-02-22"}, {"titulo": "Registro Pensión Hombres y Mujeres de 30 a 64 Años: estos son TODOS los requisitos que necesitas cubrir para recibir 3 mil 200 pesos", "Pv´s": 526711, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2025-11-18"}, {"titulo": "Ring Royale 2026: ¿Quién ganó las peleas de BOX?", "Pv´s": 463248, "seccion": "Boxeo", "Unidad": "Afición", "Fecha": "2026-03-15"}, {"titulo": "¿Habrá MEGAPUENTE en abril? Estos son TODOS los días de descanso que tendrán los alumnos y trabajadores en México", "Pv´s": 419923, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-04-02"}, {"titulo": "Temblor en México 2 de enero 2026: Réplicas, afectaciones y últimas noticias del sismo magnitud 6.5 | Resumen", "Pv´s": 398916, "seccion": "Estados", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-01-02"}, {"titulo": "¿Eres mujer y buscas jubilarte ANTES de los 60? Esta es la edad para el retiro anticipado | Requisitos", "Pv´s": 398867, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-05-14"}, {"titulo": "Chivas vs. Cruz Azul: ¿Quién pasó a la Final del Clausura 2026 de la Liga MX? Goles y resultado", "Pv´s": 395966, "seccion": "Liga Mx", "Unidad": "Afición", "Fecha": "2026-05-16"}, {"titulo": "Karely Ruiz vs. Marcela Mistral: ¿Quién fue la GANADORA de la gran pelea en Ring Royale 2026?", "Pv´s": 384936, "seccion": "Boxeo", "Unidad": "Afición", "Fecha": "2026-03-15"}, {"titulo": "Megabloqueo de transportistas HOY 24 de noviembre: Últimas noticias del tráfico y carreteras afectadas en CdMx y otros estados de México | EN VIVO", "Pv´s": 384460, "seccion": "Comunidad", "Unidad": "Hard", "Fecha": "2025-11-24"}, {"titulo": "¿Cuál será el salario mínimo en 2026? Éste es el sueldo que recibirán los mexicanos", "Pv´s": 381467, "seccion": "Negocios", "Unidad": "Unidad de Crecimiento", "Fecha": "2025-12-03"}, {"titulo": "Atención. Infonavit tiene REMATES de casas; aquí puedes ver la lista de viviendas a buen precio", "Pv´s": 377483, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2025-10-11"}, {"titulo": "VIDEO: Así fue el momento del asesinato del alcalde Carlos Manzo en evento de Día de Muertos en Uruapan", "Pv´s": 370090, "seccion": "Estados", "Unidad": "Hard", "Fecha": "2025-11-01"}, {"titulo": "¿Qué adultos mayores pueden tramitar Tarjeta Dorada en México? Estos son TODOS los requisitos que necesitas para poder tener apoyo similar a INAPAM", "Pv´s": 356535, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-04-24"}, {"titulo": "¿Dónde sacar la CURP Biométrica en 2026? Estos son todos los MÓDULOS en donde podrás hacer el trámite", "Pv´s": 356400, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-04-01"}, {"titulo": "Marcha Generación Z EN VIVO: Últimas noticias de la manifestación en CdMx HOY 15 de noviembre 2025", "Pv´s": 354037, "seccion": "Comunidad", "Unidad": "Hard", "Fecha": "2025-11-15"}, {"titulo": "Difunden nuevo video de auto que atropelló, arrastró y mató a motociclista en Iztapalapa; captan momento de la embestida", "Pv´s": 339525, "seccion": "Policía", "Unidad": "Hard", "Fecha": "2026-01-05"}, {"titulo": "¿Qué pasará si NO tramité la CURP Biométrica antes de febrero 2026? Esta podría ser la MULTA", "Pv´s": 324850, "seccion": "Comunidad", "Unidad": "Unidad de Crecimiento", "Fecha": "2026-02-12"}], "dia_semana": {"domingo": 26776334, "jueves": 50649142, "lunes": 33465137, "martes": 35848770, "miércoles": 39018126, "sábado": 30921927, "viernes": 31592261}, "scroll_sec": {"LMP": 50.39, "Operaciones": 44.94, "Videojuegos": 44.74, "Liga Mx Femenil": 43.48, "Juegos Olímpicos": 43.28, "0": 43.08, "Autos": 42.93, "Club Guadalajara": 42.8, "Juegos Olímpicos Invierno": 40.84, "Super Bowl": 40.59, "Televisión": 39.7, "Salud y nutrición": 39.53}, "rfv_sec": {"Operaciones": 51.28, "0": 50.56, "MilenIA": 38.0, "Financial Times": 37.1, "Salud y nutrición": 33.92, "Liga Mx Femenil": 33.01, "Café Milenio": 32.24, "Laberinto": 30.03, "FIL": 28.23, "Internacional": 28.16, "Dominga": 28.15, "Política": 26.64}};
 
-// ═══════════════════════════════════════════════════════════
-// TABLA: datos cargados desde Google Sheets en tiempo real
-// ═══════════════════════════════════════════════════════════
-const SHEET_ID = '1qArYcePGmK1_GPVy1AwB4lRWjw53b01BjD8s1CCnepY';
-const GID = '0';
-
-let raw=[], filtered=[], charts={};
-let sortCol=5, sortAsc=false, page=1;
-const PER=50;
-
+// ── HELPERS / RANKINGS TABLE ───────────────────────────────
 const PILL_F=['#FDECEA','#E8F5ED','#E3F2FD','#FFF8E1','#F3E5F5','#E0F2F1','#FBE9E7','#E8EAF6','#F0FDF4','#FFF7ED'];
 const PILL_T=['#B91C1C','#1A7A3C','#1565C0','#92400E','#6B21A8','#0F766E','#BF360C','#283593','#14532D','#7C2D12'];
 const pillMap={};let pi=0;
@@ -319,162 +228,29 @@ function pillStyle(v){
   return`background:${PILL_F[i]};color:${PILL_T[i]}`;
 }
 
-function impClass(v){
-  if(!v)return'';
-  if(v.includes('CRÍTICO - Alto'))return'imp-ca';
-  if(v.includes('CRÍTICO'))return'imp-ci';
-  if(v.includes('DESTACABLE')||v.includes('Destacable'))return'imp-gd';
-  if(v.includes('Regularidad'))return'imp-gr';
-  if(v.includes('Tendencia'))return'imp-st';
-  if(v.includes('Local'))return'imp-sl';
-  if(v.includes('Viral'))return'imp-ev';
-  if(v.includes('B2B'))return'imp-nb';
-  return'imp-gr';
+function pvFmt(v){
+  const n=Number(v)||0;
+  if(n>=1000000)return(n/1000000).toFixed(1)+'M';
+  if(n>=1000)return Math.round(n/1000)+'K';
+  return n?n.toString():'—';
 }
 
-// ── CSV PARSE ──────────────────────────────────────────────
-function parseCSV(txt){
-  const rows=[];
-  for(const line of txt.split('\n')){
-    if(!line.trim())continue;
-    const cols=[];let cur='',inQ=false;
-    for(const ch of line){
-      if(ch==='"'){inQ=!inQ;continue}
-      if(ch===','&&!inQ){cols.push(cur.trim());cur='';continue}
-      cur+=ch;
-    }
-    cols.push(cur.trim());rows.push(cols);
-  }
-  return rows;
-}
-
-// ── LOAD SHEET DATA ────────────────────────────────────────
-async function loadSheet(){
-  try{
-    const url=`https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${GID}`;
-    const r=await fetch(url);
-    if(!r.ok)throw new Error('No accesible');
-    const txt=await r.text();
-    const rows=parseCSV(txt);
-    if(rows.length<2)return;
-    const h=rows[0];
-    // Map columns: id,titulo,URL,Slug,Autor,editor,plaza,día,Fecha,tema,prob,personaje,area_impacto,Registros,PVs,Scroll,RFV,Ads,seccion,Unidad
-    raw=rows.slice(1).filter(r=>r.some(c=>c)).map(r=>({
-      fecha:r[8]||'',
-      titulo:r[1]||'',
-      autor:r[4]||'',
-      unidad:r[19]||'',
-      plaza:r[6]||'',
-      seccion:r[18]||'',
-      impacto:r[12]||'',
-      pvs:parseInt(r[14])||0,
-      scroll:parseFloat(r[15])||0,
-      rfv:parseFloat(r[16])||0,
-      ads:parseFloat(r[17])||0,
-      id:r[0]||''
-    }));
-    filtered=[...raw];
-    applyF();
-  }catch(e){
-    // Fallback: show message in table
-    document.getElementById('tbody').innerHTML=
-      '<tr><td colspan="9" style="padding:24px;text-align:center;color:#8A8A8A">'+
-      'Para ver la tabla completa, haz pública la hoja en Google Sheets (Archivo → Compartir → Cualquier persona con el enlace) y recarga la página.</td></tr>';
-    document.getElementById('p-info').textContent='—';
-    document.getElementById('p-btns').innerHTML='';
-  }
-}
-
-// ── FILTERS ───────────────────────────────────────────────
-function applyF(){
-  const fu=document.getElementById('f-u').value;
-  const fp=document.getElementById('f-p').value;
-  const fi=document.getElementById('f-i').value;
-  const fd=document.getElementById('f-d').value;
-  const fh=document.getElementById('f-h').value;
-  const fq=document.getElementById('f-q').value.toLowerCase();
-  filtered=raw.filter(r=>{
-    if(fu&&r.unidad!==fu)return false;
-    if(fp&&r.plaza!==fp)return false;
-    if(fi&&r.impacto!==fi)return false;
-    if(fd&&r.fecha<fd)return false;
-    if(fh&&r.fecha>fh)return false;
-    if(fq&&!(r.titulo+r.autor+r.seccion).toLowerCase().includes(fq))return false;
-    return true;
-  });
-  page=1;
-  renderTable();
-  document.getElementById('fcnt').innerHTML=`<strong>${filtered.length.toLocaleString('es-MX')}</strong> de ${raw.length.toLocaleString('es-MX')} notas`;
-}
-
-function resetF(){
-  ['f-u','f-p','f-i','f-q'].forEach(id=>document.getElementById(id).value='');
-  document.getElementById('f-d').value='2025-10-01';
-  document.getElementById('f-h').value='2026-06-07';
-  applyF();
-}
-
-// ── TABLE ─────────────────────────────────────────────────
-function sb(i){sortCol===i?sortAsc=!sortAsc:(sortCol=i,sortAsc=true);page=1;renderTable()}
-
-const fmt=n=>Number(n).toLocaleString('es-MX');
-
-function renderTable(){
-  const sorted=[...filtered];
-  if(sortCol!==-1){
-    sorted.sort((a,b)=>{
-      const keys=['fecha','titulo','autor','unidad','seccion','pvs','scroll','rfv','impacto'];
-      const av=a[keys[sortCol]]||0, bv=b[keys[sortCol]]||0;
-      if(typeof av==='number')return sortAsc?av-bv:bv-av;
-      return sortAsc?String(av).localeCompare(String(bv),'es'):String(bv).localeCompare(String(av),'es');
-    });
-  }
-  const st=(page-1)*PER, pg=sorted.slice(st,st+PER);
-  document.getElementById('tbody').innerHTML=pg.map(r=>`
+function showTopNotas(){
+  const pvKey=Object.keys(AGG.top_notas[0]).find(k=>k.includes('Pv'))||'pvs';
+  document.getElementById('top-notas').innerHTML=AGG.top_notas.map((n,i)=>`
     <tr>
-      <td class="m" style="white-space:nowrap">${r.fecha}</td>
-      <td><div class="nota-t" title="${r.titulo.replace(/"/g,'')}">${r.titulo}</div></td>
-      <td class="m" style="white-space:nowrap">${r.autor.replace('@milenio.com','')}</td>
-      <td><span class="pill" style="${pillStyle(r.unidad)}">${r.unidad}</span></td>
-      <td class="m">${r.seccion}</td>
-      <td style="font-weight:600;color:${r.pvs>100000?'#C8102E':r.pvs>10000?'#1565C0':'inherit'}">${fmt(r.pvs)}</td>
-      <td class="m">${r.scroll?r.scroll.toFixed(1)+'%':'—'}</td>
-      <td class="m">${r.rfv?r.rfv.toFixed(1):'—'}</td>
-      <td><span class="pill ${impClass(r.impacto)}" style="font-size:9px">${r.impacto||'—'}</span></td>
+      <td style="font-weight:700;color:${i<3?'#C8102E':'#8A8A8A'};padding:6px 8px">${i+1}</td>
+      <td style="padding:6px 4px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${(n.titulo||'').replace(/"/g,'')}">${n.titulo||''}</td>
+      <td class="m" style="padding:6px 4px;white-space:nowrap">${n.seccion||''}</td>
+      <td style="padding:6px 4px"><span class="pill" style="${pillStyle(n.Unidad)}">${n.Unidad||''}</span></td>
+      <td style="font-weight:600;color:#C8102E;padding:6px 4px;white-space:nowrap">${pvFmt(n[pvKey])}</td>
+      <td class="m" style="padding:6px 4px;white-space:nowrap">${n.Fecha||''}</td>
     </tr>`).join('');
-  const tot=sorted.length, pages=Math.ceil(tot/PER)||1;
-  document.getElementById('p-info').textContent=`${st+1}–${Math.min(st+PER,tot)} de ${fmt(tot)}`;
-  const pb=document.getElementById('p-btns'); pb.innerHTML='';
-  const add=(lbl,p2,ac=false,dis=false)=>{
-    const b=document.createElement('button');
-    b.className='pbtn'+(ac?' ac':'');b.textContent=lbl;b.disabled=dis;
-    if(!dis)b.onclick=()=>{page=p2;renderTable()};
-    pb.appendChild(b);
-  };
-  add('‹',page-1,false,page===1);
-  let prev=null;
-  for(let p2=1;p2<=pages;p2++){
-    if(p2===1||p2===pages||Math.abs(p2-page)<=2){
-      if(prev&&p2-prev>1){const s=document.createElement('span');s.textContent='…';s.style='padding:0 4px;color:#8A8A8A';pb.appendChild(s)}
-      add(p2,p2,p2===page);prev=p2;
-    }
-  }
-  add('›',page+1,false,page===pages);
-}
-
-// ── EXPORT ────────────────────────────────────────────────
-function exportCSV(){
-  const h=['Fecha','Titulo','Autor','Unidad','Plaza','Seccion','PVs','Scroll','RFV','Impacto'];
-  const rows=[h,...filtered.map(r=>[r.fecha,r.titulo,r.autor,r.unidad,r.plaza,r.seccion,r.pvs,r.scroll,r.rfv,r.impacto])];
-  const csv=rows.map(r=>r.map(v=>`"${String(v||'').replace(/"/g,'""')}"`).join(',')).join('\n');
-  const a=document.createElement('a');
-  a.href='data:text/csv;charset=utf-8,\uFEFF'+encodeURIComponent(csv);
-  a.download='milenio-notas-filtradas.csv';a.click();
 }
 
 // ── TABS ─────────────────────────────────────────────────
 function st(id){
-  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('ac',['g','t','r'][i]===id));
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('ac',['g','r'][i]===id));
   document.querySelectorAll('.tp').forEach(p=>p.classList.toggle('ac',p.id==='tab-'+id));
 }
 
@@ -559,7 +335,7 @@ function buildCharts(){
 
   // 6. Scroll por sección
   dch('scr');
-  const scrK=Object.keys(AGG.scroll_sec), scrV=Object.values(AGG.scroll_sec);
+  const scrK=Object.keys(AGG.scroll_sec).filter(k=>k!=='0'), scrV=scrK.map(k=>AGG.scroll_sec[k]);
   charts['scr']=new Chart(document.getElementById('ch-scr').getContext('2d'),{
     type:'bar',
     data:{labels:scrK,datasets:[{data:scrV,backgroundColor:'rgba(21,101,192,.7)',borderRadius:3,borderSkipped:false}]},
@@ -571,7 +347,7 @@ function buildCharts(){
 
   // 7. RFV por sección
   dch('rfv');
-  const rfvK=Object.keys(AGG.rfv_sec), rfvV=Object.values(AGG.rfv_sec);
+  const rfvK=Object.keys(AGG.rfv_sec).filter(k=>k!=='0'), rfvV=rfvK.map(k=>AGG.rfv_sec[k]);
   charts['rfv']=new Chart(document.getElementById('ch-rfv').getContext('2d'),{
     type:'bar',
     data:{labels:rfvK,datasets:[{data:rfvV,backgroundColor:'rgba(107,27,162,.7)',borderRadius:3,borderSkipped:false}]},
@@ -606,21 +382,12 @@ function buildCharts(){
     }
   });
 
-  // Top notas table
-  document.getElementById('top-notas').innerHTML=AGG.top_notas.map((n,i)=>`
-    <tr>
-      <td style="font-weight:700;color:${i<3?'#C8102E':'#8A8A8A'};padding:6px 8px">${i+1}</td>
-      <td style="padding:6px 4px;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${n.titulo}">${n.titulo}</td>
-      <td class="m" style="padding:6px 4px;white-space:nowrap">${n.seccion}</td>
-      <td style="font-weight:600;color:#C8102E;padding:6px 4px;white-space:nowrap">${(n["Pv's"]/1000).toFixed(0)}K</td>
-      <td class="m" style="padding:6px 4px;white-space:nowrap">${n.Fecha}</td>
-    </tr>`).join('');
 }
 
 // ── INIT ─────────────────────────────────────────────────
-document.getElementById('f-q').addEventListener('keydown',e=>{if(e.key==='Enter')applyF()});
 buildCharts();
-loadSheet();
+showTopNotas();
+
 </script>
 </body>
 </html>
