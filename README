@@ -1,0 +1,45 @@
+# Dashboard Editorial — Milenio.com
+
+Centro de Inteligencia Editorial para Grupo Multimedios. Visualiza el desempeño de las notas publicadas en Milenio.com (octubre 2025 – junio 2026): page views, secciones, unidades editoriales, autores y notas más leídas.
+
+## Demo
+
+Una vez activado GitHub Pages (ver abajo), el dashboard estará disponible en:
+
+https://omarcordero1.github.io/milenio-dashboard-tematica/
+
+```
+https://github.com/omarcordero1/milenio-dashboard-tematica
+```
+
+## Contenido
+
+- **Gráficas** — evolución mensual de PVs, distribución por unidad editorial, por sección, por área de impacto, por día de la semana, scroll y RFV promedio por sección, y cobertura por plaza.
+- **Rankings** — Top 20 notas más leídas del período y Top 15 autores por page views.
+
+## Datos
+
+Los datos están **embebidos directamente en `index.html`** (pre-agregados desde el dataset original), por lo que el dashboard funciona de forma 100% autónoma, sin conexiones externas ni configuración adicional.
+
+## Actualizar los datos
+
+Para refrescar el dashboard con datos de un nuevo periodo:
+
+1. Genera el archivo Excel actualizado con la misma estructura de columnas (`titulo`, `Autor`, `plaza`, `Fecha`, `area_impacto`, `Pv´s`, `Scroll`, `RFV`, `seccion`, `Unidad`, etc.).
+2. Solicita la regeneración del `index.html` con los nuevos agregados.
+3. Reemplaza el archivo `index.html` en este repositorio y haz commit + push (ver abajo).
+
+## Cómo desplegar en GitHub Pages
+
+1. Sube este repositorio a GitHub (instrucciones abajo).
+2. En el repositorio, ve a **Settings → Pages**.
+3. En **Source**, selecciona **Deploy from a branch**.
+4. Branch: `main` — Carpeta: `/ (root)`.
+5. Guarda. En 1–2 minutos tu dashboard estará público.
+
+## Identidad visual
+
+Construido con la paleta editorial de Milenio (rojo `#C8102E`, negro `#1A1A1A`), tipografías Merriweather (encabezados) e Inter (texto), usando Chart.js para las visualizaciones.
+
+---
+Grupo Multimedios · Centro de Inteligencia Editorial
